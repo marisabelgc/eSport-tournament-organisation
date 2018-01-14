@@ -1,0 +1,91 @@
+*{transition: all ease 0.4s;}
+label{vertical-align: baseline; cursor: pointer;}
+.navbar-brand{color: #fff!important;}
+th{ border-top: 0px solid transparent!important; text-transform: capitalize;}
+.breadcrumb, .btn{ text-transform: capitalize; }
+@media (min-width:768px){
+  .floatl{ float:left; }
+  .floatr{ float: right; }
+}
+.clear, .clear::after, .clear::before{ clear: both; }
+.clear::after, .clear::before{ content:""; display:block;}
+.title-wmargin h3{ margin-top:0px!important; text-transform: capitalize;}
+.title-wmargin a{ margin-bottom: 15px; }
+dt, dd{ padding:0.5rem 0; }
+
+#details, #players, #sponsors{ width:88%; padding-right:2%;}
+
+.login{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login .well{ width:25%; }
+
+.patrocinador ol{ padding-left: 1.5rem; }
+
+/* input file style */
+
+.input-file {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.input-file + .js-labelFile {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 6px 12px;
+  background-color: #aab2bd;
+  border-color: #aab2bd;
+}
+
+.js-labelFile:hover{
+  background-color: #aab2bde6;
+  border-color: #c4c8cc;
+}
+
+.fijo:hover{
+  cursor:pointer;
+}
+
+.flex-valign{
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.dashboard-btn a{
+  padding: 1.5rem 0;
+  font-size: 16px;
+}
+
+.mr2{ margin-right: 2rem; }
+.f-light{ font-weight: 300; margin-left: 1rem;}
+
+textarea{resize: none;}
+.border-red, .border-red:focus{ border:1px solid #da4453; box-shadow: 0px 0px 2px #da4453cc;}
+
+.red{ color:#da4453; font-weight: 600;}
+
+.dl-horizontal dt{ white-space: normal; }
+
+.pagination{box-shadow: 0 1px 2px rgba(0,0,0,.2);}
+.pagination > li > a, .pagination > li > span{border-color: #fff;}
+
+.schedule{ display:flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;}
+.schedule .form-control{ width:18%; }
+
+input[type="checkbox"]{ cursor:pointer; }
+
+.index .well{padding: 27px;}
